@@ -25,7 +25,7 @@ const router = createBrowserRouter([
       {
         path: '/menu',
         element: <Menu />,
-        // loaders load the data before the rendering is done
+        // loaders load the data before the rendering is done -
         loader: menuLoader,
         errorElement: <Error />,
       },
